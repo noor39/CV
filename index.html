@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kazi Noor Ahmed - Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        :root {
+            --primary-color: #2A5C82;
+            --secondary-color: #33475B;
+            --accent-color: #4CAF50;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            line-height: 1.6;
+            color: #333;
+        }
+
+        /* Header Styles */
+        .header {
+            background: var(--primary-color);
+            color: white;
+            padding: 2rem;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            gap: 1.5rem;
+            margin-top: 1rem;
+        }
+
+        /* Navigation */
+        .nav {
+            background: var(--secondary-color);
+            padding: 1rem;
+            position: sticky;
+            top: 0;
+        }
+
+        .nav-list {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            list-style: none;
+        }
+
+        .nav-link {
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        /* Section Styles */
+        .section {
+            padding: 4rem 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .section-title {
+            color: var(--primary-color);
+            text-align: center;
+            margin-bottom: 2rem;
+            font-size: 2rem;
+        }
+
+        /* Education Timeline */
+        .timeline {
+            position: relative;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .timeline-item {
+            padding: 2rem;
+            background: #f8f9fa;
+            margin: 1rem 0;
+            border-left: 3px solid var(--primary-color);
+        }
+
+        /* Skills Grid */
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .skill-card {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .skill-category {
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+        }
+
+        /* Experience Section */
+        .experience-item {
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            background: #f8f9fa;
+        }
+
+        /* Footer */
+        .footer {
+            background: var(--secondary-color);
+            color: white;
+            text-align: center;
+            padding: 2rem;
+        }
+
+        @media (max-width: 768px) {
+            .nav-list {
+                flex-direction: column;
+                text-align: center;
+                gap: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>Kazi Noor Ahmed</h1>
+        <p class="title">Dynamic Strategist | Strategy Execution |Innovation & Data-Driven Decision-Making |Data Analysis | Sustainable Growth and Transformation | BBA | MBA | Dhaka University</p>
+        <div class="contact-info">
+            <span><i class="fas fa-envelope"></i> kznrahmd@gmail.com</span>
+            <span><i class="fas fa-phone"></i> +8801704030009</span>
+            <span><i class="fas fa-map-marker-alt"></i>  2/H/7, Golden Street, Shamoly, Dhaka-1207, Bangladesh</span>
+        </div>
+    </header>
+
+    <nav class="nav">
+        <ul class="nav-list">
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#education" class="nav-link">Education & Training </a></li>
+            <li><a href="#skills" class="nav-link">Skills</a></li>
+            <li><a href="#experience" class="nav-link">Experience</a></li>
+        </ul>
+    </nav>
+
+    <section id="about" class="section">
+        <h2 class="section-title">Professional Summary</h2>
+        <p class="summary">Results-driven disciplined professional at the intersection of people, process, and purpose—combining strategic leadership with hands-on expertise in business analytics. Armed with a strong foundation in Organizational Strategy and Leadership (OSL), I bring a rare blend of cross-functional insight and analytical capability to help organizations thrive in complex, fast-paced environments.
+        Proficient in Advanced SQL, Power BI, and Excel, I leverage data to optimize workflows, enhance employee engagement, and enable evidence-based decision-making. Adept at public speaking, cross-functional collaboration, and stakeholder alignment, I drive strategic initiatives from ideation to execution.
+        With a track record in event management, digital transformation, and institutional reform, I focus on improving governance, enhancing leadership pipelines, and increasing operational efficiency. Passionate about helping organizations align people and performance with long-term goals, especially in the areas of export strategy, trade readiness, and private sector modernization.
+        I aim to be a strategic asset in any organization seeking to scale sustainably through smart systems, strong leadership, and a culture of continuous improvement.
+        
+    </p>
+    </section>
+
+    <section id="education" class="section">
+        <h2 class="section-title">Education & Training </h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <h3>Master of Business Administration Majoring in Organization Strategy & Leadership</h3>
+                <p>University of Dhaka | Faculty of Business Studies | 2023-2024</p>
+                <p>CGPA: 3.31/4.00</p><br>
+                <p>Strategy helps organizations transition to data-driven decision-making, align departments with long-term goals, and optimize export strategies. Focused on improving governance, leadership development, and driving digital transformation to boost efficiency and competitiveness.</p>
+            </div>
+            <div class="timeline-item">
+                <h3>Bachelor of Business Administration Majoring in Organization Strategy & Leadership</h3>
+                <p>University of Dhaka | Faculty of Business Studies | 2018-2023</p>
+                <p>CGPA: 2.99/4.00</p><br>
+                <p>Skilled in strategic planning, digital transformation, and operational excellence using tools like Balanced Scorecard, ERP, and Power BI. Add value through export strategy, governance reform, and lean management. Strong communicator with leadership, collaboration, and analytical capabilities.</p>
+            </div>
+            <div class="timeline-item">
+                <h3>HIGHER SECONDARY CERTIFICATE Examination  (Science)</h3>
+                <p>Mohammadpur Model College | 2017</p>
+                <p>CGPA: 4.17/5.00</p>
+            </div>
+            <div class="timeline-item">
+                <h3>SECONDARY SCHOOL CERTIFICATE Examination  (Science)</h3>
+                <p>Mohammadpur Govt High School | 2015</p>
+                <p>CGPA: 4.72/5.00</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section">
+        <h2 class="section-title">Core Competencies</h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <h3 class="skill-category">Technical Skills</h3>
+                <ul>
+                    <li>Average Keyboard speed : 46 WPM</li>
+                    <li>SQL & Database Management</li>
+                    <li>Power BI & Data Visualization</li>
+                    <li>Advanced Excel Analysis</li>
+                    <li>HRIS & ERP Systems</li>
+                    <Li>Microsoft Office Package</Li>
+                    <li>Shopify store creation and maintaining.</li>
+                    <li>Frontend HTML, CSS, SCSS, JS.</li>
+                    <li>Search Engine Optimization (SEO) </li>
+                </ul>
+            </div>
+            <div class="skill-card">
+                <h3 class="skill-category">Professional Skills</h3>
+                <ul>
+                    <li>People Management</li>
+                    <li>Strategic Planning & Execution</li>
+                    <li>Digital Transformation</li>
+                    <li>Cross-functional Leadership</li>
+                    <li>Organizational Development</li>
+                    <li></li>
+                    
+                </ul>
+            </div>
+        </div>
+    </section>
+<!-- KAZI NOOR AHMED
+2/H/7, Golden Street, Shamoly, Dhaka-1207
+Mobile: 01704030009 | Email: kznrahmd@gmail.com |
+LinkedIn: linkedin.com/in/kazinoorahmed1
+________________________________________
+PROFESSIONAL SUMMARY
+A results-driven professional at the intersection of people, process, and purpose—combining strategic leadership with hands-on expertise in business analytics. Backed by a strong foundation in Organizational Strategy and Leadership (OSL), I bring cross-functional insight and analytical skill to help organizations operate efficiently in dynamic environments. Proficient in SQL, Power BI, and Excel, I use data to optimize workflows, elevate employee engagement, and support evidence-based decisions. Experienced in public speaking, cross-functional collaboration, and strategic alignment. My focus areas include institutional reform, digital transformation, and export-readiness in the private sector. 
+________________________________________
+CAREER OBJECTIVE
+To contribute to an organization’s growth by driving data-informed decisions, enhancing operational efficiency, and aligning human capital with strategic goals—particularly in areas of digital transformation, export strategy, and governance reform. I aim to be a catalyst for scalable, people-centered, and performance-driven change.
+________________________________________
+EDUCATION
+Master of Business Administration (MBA)
+University of Dhaka
+Specialization: Organizational Strategy & Leadership
+CGPA: 3.31/4.00 | Completed: 2022 | Result published: 6 February, 2025
+
+
+Bachelor of Business Administration (BBA)
+University of Dhaka
+Specialization: Organizational Strategy & Leadership
+CGPA: 2.99/4.00 | Completed: 2021 | Result published:16 February, 2023
+________________________________________
+RELEVANT EXPERIENCE
+Human Resources Intern
+Igloo Ice Cream, Abdul Monem Ltd., Dhaka, Bangladesh
+Session: September 2022 – January 2023
+
+	Recruitment Support: Assisted with end-to-end recruitment, including posting job openings, screening resumes, scheduling interviews, and onboarding, resulting in a streamlined and positive candidate experience.
+	HR Documentation & Compliance: Managed employee records, ID issuance, and ensured compliance with company policies and Bangladesh labor laws, maintaining accuracy in HR databases.
+	Payroll & Attendance: Provided support in preparing payroll documentation and managing attendance records, contributing to accurate and timely payroll processing.
+	Employee Relations: Engaged in grievance handling, supporting effective communication with employees, and maintaining an organized record of employee issues and resolutions.
+	Administrative Support: Coordinated internal training sessions and employee engagement activities, organizing necessary materials and logistics.
+________________________________________
+CORE SKILLS
+	Technical: SQL(Expert) | Power BI | Excel (Advanced) | Google Workspace | HRIS Systems, Oracle database
+	Business & Strategic: Organizational Development | Employee Engagement | Governance Improvement | Institutional Reform
+	Soft Skills: Public Speaking | Cross-Functional Leadership | Problem Solving | Stakeholder Communication
+________________________________________
+PROJECTS & ACADEMIC HIGHLIGHTS
+	HR Compliance Project: Conducted research on Bangladesh labor laws and company compliance requirements, gaining hands-on experience in aligning company policies with legal standards. 
+	Employee Engagement Project: Assisted in organizing employee engagement activities, including workshops and training sessions, to enhance employee satisfaction and performance.
+________________________________________
+REFERENCES
+	Dr. Muhammad Abdul Moyeen
+Ex-Dean, Faculty of Business Studies
+University of Dhaka
+Phone: +8801971521511
+Email: moyeenma@du.ac.bd
+Relation: Academic Mentor
+		Muhammad Mizan Sarwar
+General Manager
+Abdul Monem Ltd.
+Phone: +8801713431618
+Email: m_sarwar83@yahoo.com
+Relation: Professional Mentor
+
+
+
+ -->
+
+
+ <!-- KAZI NOOR AHMED
+kznrahmd@gmail.com
++8801704030009
+
+Dhaka Bangladesh
+
+
+Education
+MBA Organization Strategy & Leadership
+University of Dhaka • DHAKA, Bangladesh
+02/2025
+2023 – 2024
+CGPA: 3.31/4.00
+Strategy helps organizations transition to data-driven decision-making, align departments with long-term goals, and optimize export strategies. Focused on improving governance, leadership development, and driving digital transformation to boost efficiency and competitiveness.
+BBA Organization Strategy & Leadership
+BBA • Dhaka, Bangladesh
+04/2023
+University of Dhaka | 2018 – 2023
+CGPA: 2.99/4.00
+Skilled in strategic planning, digital transformation, and operational excellence using tools like Balanced Scorecard, ERP, and Power BI. Add value through export strategy, governance reform, and lean management. Strong communicator with leadership, collaboration, and analytical capabilities.
+
+HSC 
+Dynamic HR & Operations Strategist | Data-Driven Leader | Organizational Development Expert
+A results-driven professional at the intersection of people, process, and purpose—combining strategic leadership with hands-on expertise in business analytics. Armed with a strong foundation in Organizational Strategy and Leadership (OSL), I bring a rare blend of cross-functional insight and analytical capability to help organizations thrive in complex, fast-paced environments.
+Proficient in SQL, Power BI, and Excel, I leverage data to optimize workflows, enhance employee engagement, and enable evidence-based decision-making. Adept at public speaking, cross-functional collaboration, and stakeholder alignment, I drive strategic initiatives from ideation to execution.
+With a track record in event management, digital transformation, and institutional reform, I focus on improving governance, enhancing leadership pipelines, and increasing operational efficiency. Passionate about helping organizations align people and performance with long-term goals, especially in the areas of export strategy, trade readiness, and private sector modernization.
+I aim to be a strategic asset in any organization seeking to scale sustainably through smart systems, strong leadership, and a culture of continuous improvement.
+
+objective
+strategic asset to work at the intersection of people process and purpose. strategy helps organizations transition to data-driven decision-making, align departments with long-term goals. Focused on improving governance, leadership development, and driving digital transformation to boost efficiency and competitiveness. Drive strategic planning, data-driven decision-making, and digital transformation in Bangladeshi organizations. With strong skills in analytics, leadership, and governance, they can align departments with long-term goals and boost operational efficiency. Adds value in export strategy, trade readiness, and institutional reform across both private and social sectors.
+
+Skills
+
+📊 Data-Driven Decision Making: Developed dashboards with SQL, Power BI, and Excel to inform strategic decisions.
+ 👥 HR Strategy & Execution: Managed recruitment, performance systems, and compliance to boost team performance. 
+🧩 Process Optimization: Improved workflows and led cross-functional projects for operational efficiency. 
+💻 Tech & Systems: Implemented Oracle DB, HRIS, ATS, SEO, QuickBooks, and built websites for automation and visibility. 
+🗣️ Communication & Collaboration: Presented insights and resolved conflicts to drive team alignment and outcomes.
+Dynamic HR & Operations professional with a strong foundation in leadership, business strategy, and data analytics. Proficient in SQL, Power BI, and Excel to optimize workflows and drive data-informed decisions. Skilled in public speaking, cross-functional leadership, and clear, persuasive communication. Backed by academic excellence in Business Administration and practical experience in event management and employee engagement. As an Organizational Strategy and Leadership (OSL) graduate, I’m equipped to contribute at all levels—from implementing strategy to driving change and leading sustainable growth in today’s competitive landscape.
+A strategic asset to work at the intersection of people, process and purpose. With my strategic mindset I aim to help organizations transition to data-driven decision making, align departments with long term goals. I focus on improving governance, leadership development and driving digital transformation to boost operational efficiency and competitiveness. With the help of my analytic mind and analytic skills I aim to provide value in a positive way in export strategy, trade readiness institutional reform in private sector.
+
+
+Dynamic HR & Operations Strategist | Data-Driven Leader | Organizational Development Expert
+A results-driven professional at the intersection of people, process, and purpose—combining strategic leadership with hands-on expertise in business analytics. Armed with a strong foundation in Organizational Strategy and Leadership (OSL), I bring a rare blend of cross-functional insight and analytical capability to help organizations thrive in complex, fast-paced environments.
+Proficient in SQL, Power BI, and Excel, I leverage data to optimize workflows, enhance employee engagement, and enable evidence-based decision-making. Adept at public speaking, cross-functional collaboration, and stakeholder alignment, I drive strategic initiatives from ideation to execution.
+With a track record in event management, digital transformation, and institutional reform, I focus on improving governance, enhancing leadership pipelines, and increasing operational efficiency. Passionate about helping organizations align people and performance with long-term goals, especially in the areas of export strategy, trade readiness, and private sector modernization.
+I aim to be a strategic asset in any organization seeking to scale sustainably through smart systems, strong leadership, and a culture of continuous improvement.
+
+
+
+
+
+Skills 2/H/7, Golden Street, Shamoly, Dhaka-1207 kznrahmd@gmail.com +8801704030009 I bring strategic leadership skills focused on team management, planning, and communication. Committed to impactful solutions, I aim to drive organizational success. I stay updated on industry trends and prioritize people's needs. With entrepreneurial spirit, resilience and integrity, I look for opportunities to reach my full potential on the path of continuous learning. Strong verbal and written communication skills in English Detail oriented with excellent organizational abilities Experience in maintaining confidential records Proven ability to work in multicultural environments Strong analytical and problem-solving capabilities Effective team collaboration skills HR Administration & Compliance Managed comprehensive employee records and documentation with 100% accuracy Ensured compliance with local labor laws and company policies Supported implementation of HR strategies and standard operating procedures Recruitment & Selection Assisted in recruitment processes for multiple positions Screened resumes, scheduled interviews, and maintained candidate databases Coordinated with department heads for recruitment needs assessment Performance Management & Development Supported performance appraisal documentation for 200+ employees Maintained training records and prepared quarterly learning reports Assisted in organizing staff development programs and workshops Staff Wellbeing & Engagement Coordinated employee engagement initiatives and wellness programs Supported grievance handling and conflict resolution processes Maintained confidential employee information with utmost discretion Human Resources Intern Education Specialization: Organizational Strategy & Leadership CGPA: 3.31/4.00 | Completed: 2022 Result Published: 29 Oct 2024 (COVID) Specialization: Organizational Strategy & Leadership CGPA: 2.99/4.00 | Completed: 2021 Result Published: 16 February 2023 (COVID) Group: Science GPA: 4.17 Out of Scale 5.00 Group: Science GPA: 4.72 Out of Scale 5.00 2023 - 2024 2018 - 2023 2015- 2017 2005- 2015 Master of Business Administration (MBA) Bachelor of Business Administration (BBA) HIGHER SECONDARY CERTIFICATE SECONDARY SCHOOL CERTIFICATE University of Dhaka University of Dhaka Mohammadpur Model College, Dhaka Board Mohammadpur Govt. High School, Dhaka Board Experience References Md. Rashedur Rahman University of Dhaka. / Chairman, OSL 123-456-7890 m_sarwar83@yahoo.com Muhammad Mizan Sarwar Phone: Email : +8801712193400 Phone: Email : ABDUL MONEM LTD. General Manager linkedin.com/in/kazinoorahmed1 Igloo Ice Cream, Abdul Monem Ltd. Session: September 2022 - January 2023 Technical Skills mrrahman@du.ac.bd Keyboard speed : 42 WPM Data Analysis & Visualization: Proficiency in advanced Excel, Power BI, SQL Strong Microsoft office suit proficiency. Basic Web Development skills, like Shopify store creation and maintaining. And Frontend HTML, CSS, SCSS, JS. intuit QuickBooks training in 201
+ -->
+
+ <!-- KAZI NOOR
+ AHMED
+ Contact
+ About Me
+ Skills
+ 2/H/7, Golden Street, Shamoly, Dhaka-1207
+ kznrahmd@gmail.com
+ +8801704030009 
+I bring strategic leadership skills focused on
+ team management, planning, and
+ communication. Committed to impactful
+ solutions, I aim to drive organizational success. I
+ stay updated on industry trends and prioritize
+ people's needs. With entrepreneurial spirit,
+ resilience and integrity, I look for opportunities
+ to reach my full potential on the path of
+ continuous learning. 
+Strong verbal and written communication skills
+ in English
+ Detail oriented with excellent organizational
+ abilities
+ Experience in maintaining confidential records
+ Proven ability to work in multicultural
+ environments
+ Strong analytical and problem-solving
+ capabilities
+ Effective team collaboration skills
+ HR Administration & Compliance
+ Managed comprehensive employee records and documentation
+ with 100% accuracy
+ Ensured compliance with local labor laws and company policies
+ Supported implementation of HR strategies and standard
+ operating procedures
+ Recruitment & Selection
+ Assisted in recruitment processes for multiple positions
+ Screened resumes, scheduled interviews, and maintained
+ candidate databases
+ Coordinated with department heads for recruitment needs
+ assessment
+ Performance Management & Development
+ Supported performance appraisal documentation for 200+
+ employees
+ Maintained training records and prepared quarterly learning
+ reports
+ Assisted in organizing staff development programs and workshops
+ Staff Wellbeing & Engagement
+ Coordinated employee engagement initiatives and wellness
+ programs
+ Supported grievance handling and conflict resolution processes
+ Maintained confidential employee information with utmost
+ discretion
+ Human Resources Intern 
+Education
+ Specialization: Organizational Strategy & Leadership
+ CGPA: 3.31/4.00 | Completed: 2022 Result Published: 29 Oct 2024
+ (COVID)
+ Specialization: Organizational Strategy & Leadership
+ CGPA: 2.99/4.00 | Completed: 2021 Result Published: 16 February
+ 2023 (COVID)
+ Group: Science GPA: 4.17 Out of Scale 5.00
+ Group: Science GPA: 4.72 Out of Scale 5.00
+ 2023 - 2024
+ 2018 - 2023
+ 2015- 2017
+ 2005- 2015
+ Master of Business Administration (MBA)
+ Bachelor of Business Administration (BBA)
+ HIGHER SECONDARY CERTIFICATE
+ SECONDARY SCHOOL CERTIFICATE
+ University of Dhaka 
+University of Dhaka 
+Mohammadpur Model College, Dhaka Board
+ Mohammadpur Govt. High School, Dhaka Board
+ Experience
+ References
+ Md. Rashedur Rahman
+ University of Dhaka. /
+ Chairman, OSL
+ 123-456-7890
+ m_sarwar83@yahoo.com
+ Muhammad Mizan Sarwar
+ Phone: 
+Email :
+ +8801712193400 Phone: 
+Email :
+ ABDUL MONEM LTD.
+ General Manager
+ linkedin.com/in/kazinoorahmed1
+ Igloo Ice Cream, Abdul Monem Ltd.
+ Session: September 2022 - January 2023
+ Technical Skills
+ mrrahman@du.ac.bd
+ Keyboard speed : 42 WPM
+ Data Analysis & Visualization: Proficiency in
+ advanced Excel, Power BI, SQL
+ Strong Microsoft office suit proficiency. 
+Basic Web Development skills, like Shopify
+ store creation and maintaining. And Frontend
+ HTML, CSS, SCSS, JS.
+ intuit QuickBooks training in 2019 -->
+    <section id="experience" class="section">
+        <h2 class="section-title">Professional Experience</h2>
+        <div class="experience-item">
+            <h3>Human Resources Intern</h3>
+            <p>Abdul Monem Ltd.| Igloo Ice cream Unit | Sept 2022 - Jan 2023</p>
+            <ul>
+                <li>Managed comprehensive employee records with 100% accuracy</li>
+                <li>Supported recruitment processes and candidate screening</li>
+                <li>Coordinated staff development programs and workshops</li>
+                <li>Got the lesson that "Any Problem can be solved"</li>
+            </ul>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>Connect with me:</p>
+        <div class="social-links">
+            <a href="linkedin.com/in/kazinoorahmed1" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="linkedin.com/in/kazinoorahmed1" target="_blank"><i class="fab fa-linkedin"></i></a>
+        </div>
+        <p>&copy; 2023 Kazi Noor Ahmed. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Dynamic skill animation
+        window.addEventListener('scroll', () => {
+            const skills = document.querySelectorAll('.skill-card');
+            skills.forEach(skill => {
+                const skillPosition = skill.getBoundingClientRect().top;
+                const screenPosition = window.innerHeight;
+                
+                if(skillPosition < screenPosition) {
+                    skill.style.opacity = '1';
+                    skill.style.transform = 'translateY(0)';
+                }
+            });
+        });
+    </script>
+</body>
+</html>
